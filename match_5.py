@@ -36,6 +36,10 @@ for i in range(3):
             print("Dispositivi elettronici")
         case _:
             print("Categoria sconosciuta")
+
+
+
+
         
 
 
