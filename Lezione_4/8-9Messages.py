@@ -1,7 +1,4 @@
 
-
-
-
 def show_messages(listArg):
     for i in listArg:
         print(i)

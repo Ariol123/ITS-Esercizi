@@ -1,5 +1,5 @@
 def display_message():
-    print("Ciao ho inparato Python")
+    print("Ciao sto imparando Python")
 display_message()
 
 
@@ -12,6 +12,6 @@ favorite_book("la bibbia")
 
 def make_shirt(size,text):
     print(f"My shirt is {size} and Do; \'{text}\'")
-size= "XL"
+size = "XL"
 text = "Riccardo cuor di Leone"
 make_shirt(size,text)
