@@ -1,6 +1,6 @@
 def car(manufacturer, model, color:None):
     manufacturer = {productor:"name_of_p", model:"model_name", none:"color"}
-    return car
+    return manufacturer
 
 while True:
     productor = input("Scrivere nome del produttore")
@@ -13,6 +13,6 @@ while True:
 
 print(costructor)
 
-????
+
 
 
