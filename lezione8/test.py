@@ -9,7 +9,7 @@ p: Persona = Persona("Arjol","Spirollari", 42)
 print(p)
 
 #crea un oggetto studente1 della classe Studente
-studente1: Studente = Studente("Mario", "Rossi", 20, "")
+studente1: Studente = Studente("Mario", "Rossi", 20, "hgftyfy")
 
 print(studente1)
 print(studente1.getAge())
