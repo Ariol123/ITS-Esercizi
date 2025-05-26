@@ -1,0 +1,80 @@
+'''
+lenght_1: int = int(input("Give me a number... n number"))
+numbers: list= []
+
+for i in range( 1,lenght_1 +1):
+    numbers.append(i)
+
+print(numbers)
+'''
+'''
+x: int = int(input("Give 10 nothing else"))
+
+while True:
+    print(x)
+    x -=1
+    if x == 0:
+        print("Time's up!")
+        break
+'''
+'''
+eserzicio 1
+while True:
+    parole = input("Scrivi delle parole, per terminare scrivi fine,:").lower()
+    if parole == "fine":
+        break
+    if parole[0] == parole[-1]:
+        print(f"La prima e lultima letera sono {parole[0]} è sono uguali.")
+    else:
+        print("La prima e lultima lettera non sonno uguali")
+
+'''
+'''
+esercizio 2
+stringaX = input("Inserisci una parola")
+
+print(len(stringaX))
+
+'''
+'''
+esercizio3
+
+
+while True:
+    stringaX = input("Inserisci una parola")
+    stringaY = ""
+    stringaY = stringaX [::-1]
+    print(stringaY)
+    print(stringaX)
+    break
+'''
+'''
+Esercizio 4
+
+'''
+'''
+numero: float = float(input("insericsi numero"))
+caunt = 0
+while numero >=0:
+    if numero.is_integer():
+        total = 0
+        caunt +=1
+        total +=numero 
+    max = 0
+    min = 99
+    
+    if numero > max:
+        max = numero
+    if min > numero:
+        min = numero
+    
+    numero: float = float(input("insericsi numero"))
+    
+    if numero < 0:
+        break
+    media = total  / caunt
+print(min,max,media)
+'''
+    
+
+
