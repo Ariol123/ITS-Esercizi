@@ -13,3 +13,5 @@ glossary:dict[str:str] = {"help":"Eserciziiii","python":"more_esercizi","web":"d
 
 for key,value in glossary.items():
     print(f"la :{key} e in suo significato:{value}\n")
+
+
